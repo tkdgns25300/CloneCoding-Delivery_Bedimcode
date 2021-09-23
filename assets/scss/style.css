@@ -79,4 +79,27 @@ h1, h2, h3 {
 ul {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* =============== REUSABLE CSS CLASSES =============== */
+.section {
+  padding: 4.5rem 0 1rem;
+}
+
+.section__title, .section__title-center {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  text-align: center;
+  margin-bottom: var(--mb-1);
+}
+
+/* =============== LAYOUT =============== */
 /*# sourceMappingURL=style.css.map */
